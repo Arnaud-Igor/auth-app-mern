@@ -38,7 +38,7 @@ export default function Home() {
           🥳
         </motion.div>
       </div>
-      <h1 className="text-3xl text-stone-800 mb-4">👏 Félicitations 😁</h1>
+      <h1 className="text-3xl text-stone-800 mb-4">👏 Félicitations ! 😁</h1>
       <p className="text-2xl text-orange-400 font-bold mb-6">
         {userLogged.toLocaleUpperCase()}
       </p>
