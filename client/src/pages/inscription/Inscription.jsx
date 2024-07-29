@@ -45,7 +45,7 @@ export default function Inscription() {
       return handleError("Tous les champs sont obligatoires");
     }
 
-    const apiUrl = "https://mern-auth-01-api.onrender.com/auth/inscription";
+    const apiUrl = "https://auth-app-mern-api.vercel.app/auth/inscription";
     await axios
       .post(apiUrl, userInfo)
       .then((res) => {
